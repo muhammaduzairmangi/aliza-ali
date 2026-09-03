@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="aliza.jpeg" type="image/x-icon" />
+  <meta property="og:image" content="https://alizaali.github.io/aliza.jpeg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aliza Ali – ACCA Candidate & Accounts Professional</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Aliza Ali is an ACCA student (8 of 13 papers passed) with hands-on experience in Accounts Payable/Receivable, bank reconciliation, general ledger bookkeeping, and compliance (BAS/IAS, STP, superannuation) across Xero, MYOB, LightYear, and Deputy." />
+  <meta name="keywords" content="Aliza Ali, ACCA Pakistan, Accounts Professional, Bookkeeping, Xero, MYOB, BAS Lodgement, Payroll, Finance, Lahore" />
+  <meta name="author" content="Aliza Ali" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://alizaali.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aliza Ali – ACCA Candidate & Accounts Professional" />
+  <meta property="og:description" content="Portfolio of Aliza Ali – ACCA student, Accounts Trainee, and finance professional from Lahore, Pakistan." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://alizaali.github.io/" />
+  <meta property="og:image" content="https://alizaali.github.io/aliza.jpeg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aliza Ali – ACCA Candidate & Accounts Professional" />
+  <meta name="twitter:description" content="ACCA student and accounts professional with experience in AP/AR, payroll, and BAS/IAS compliance." />
+  <meta name="twitter:image" content="https://alizaali.github.io/aliza.jpeg" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aliza Ali",
+    "url": "https://alizaali.github.io/",
+    "image": "https://alizaali.github.io/aliza.jpeg",
+    "jobTitle": "ACCA Candidate & Accounts Trainee",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Marchanwala School of Accountancy"
+    },
+    "knowsAbout": ["Accounts Payable", "Accounts Receivable", "Bank Reconciliation", "Bookkeeping", "Xero", "MYOB", "BAS/IAS", "Payroll", "Financial Reporting"],
+    "sameAs": [
+      "https://www.linkedin.com/in/alizaali"  <!-- replace with actual LinkedIn -->
+    ],
+    "email": "aliza@email.com",  <!-- replace -->
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lahore",
+      "addressRegion": "Punjab",
+      "addressCountry": "PK"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f8f7f5;
+      --surface: #ffffff;
+      --border: #e0dbd5;
+      --text: #1a1a1a;
+      --muted: #6b6761;
+      --accent: #1a2a4a;          /* deep navy */
+      --accent-light: #e9edf3;
+      --accent-hover: #0f1a2e;
+      --tag-bg: #e9edf3;
+      --tag-text: #1a2a4a;
+      --gold: #c9a84c;            /* accent for highlights */
+      --serif: 'DM Serif Display', Georgia, serif;
+      --sans: 'DM Sans', system-ui, sans-serif;
+      --nav-h: 60px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; color: var(--accent-hover); }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(248,247,245,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      height: var(--nav-h);
+    }
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-name {
+      font-family: var(--serif);
+      font-size: 17px;
+      color: var(--text);
+      white-space: nowrap;
+      letter-spacing: -0.01em;
+    }
+    .nav-name:hover { text-decoration: none; color: var(--accent); }
+
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      color: var(--text);
+      font-size: 24px;
+      line-height: 1;
+    }
+    .nav-toggle:focus { outline: none; }
+
+    .nav-links {
+      display: flex;
+      gap: 4px;
+      list-style: none;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav-links a {
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--muted);
+      padding: 5px 10px;
+      border-radius: 6px;
+      transition: color 0.15s, background 0.15s;
+    }
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--accent);
+      background: var(--accent-light);
+      text-decoration: none;
+    }
+
+    /* ── LAYOUT ── */
+    .site-body {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+      display: flex;
+      gap: 56px;
+      align-items: flex-start;
+    }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      width: 210px;
+      flex-shrink: 0;
+      position: sticky;
+      top: calc(var(--nav-h) + 24px);
+    }
+    .sidebar-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--border);
+      display: block;
+    }
+    .sidebar-name {
+      font-family: var(--serif);
+      font-size: 19px;
+      margin-top: 14px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+    .sidebar-role {
+      font-size: 12.5px;
+      color: var(--muted);
+      margin-top: 5px;
+      line-height: 1.5;
+    }
+    .sidebar-tag {
+      font-size: 11px;
+      color: var(--tag-text);
+      font-style: italic;
+      margin-top: 3px;
+    }
+    .sidebar-meta {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .meta-item svg {
+      width: 14px;
+      height: 14px;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+    .meta-item a {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .meta-item a:hover { color: var(--accent); text-decoration: none; }
+
+    /* ── MAIN CONTENT ── */
+    .main { flex: 1; min-width: 0; }
+
+    .page { display: none; animation: fadeIn 0.25s ease; }
+    .page.active { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* ── TYPOGRAPHY ── */
+    .page-title {
+      font-family: var(--serif);
+      font-size: 28px;
+      font-weight: 400;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+    .section-head {
+      font-family: var(--serif);
+      font-size: 19px;
+      font-weight: 400;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    .lead { color: var(--muted); margin-bottom: 28px; font-size: 14.5px; }
+
+    /* ── TIMELINE LIST ── */
+    .timeline { display: flex; flex-direction: column; gap: 16px; }
+    .tl-item { display: flex; flex-direction: column; gap: 2px; }
+    .tl-title { font-weight: 600; font-size: 14.5px; }
+    .tl-sub { font-size: 13.5px; color: var(--muted); }
+    .tl-body { font-size: 14px; line-height: 1.65; margin-top: 4px; }
+
+    /* ── CERTIFICATE CARDS ── */
+    .cert-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .cert-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .cert-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: var(--accent-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .cert-icon svg { width: 20px; height: 20px; color: var(--accent); }
+    .cert-body { flex: 1; min-width: 0; }
+    .cert-title { font-weight: 600; font-size: 14.5px; margin-bottom: 3px; line-height: 1.4; }
+    .cert-issuer { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+    .cert-desc { font-size: 13.5px; line-height: 1.6; }
+    .cert-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: 2px 8px;
+      border-radius: 20px;
+      margin-top: 6px;
+    }
+
+    /* ── CV ── */
+    .cv-iframe {
+      width: 100%;
+      height: 80vh;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .cv-download { margin-bottom: 16px; font-size: 14px; color: var(--muted); }
+
+    /* ── CONTACT ── */
+    .contact-list { display: flex; flex-direction: column; gap: 14px; margin-top: 8px; }
+    .contact-row { display: flex; align-items: center; gap: 12px; font-size: 14.5px; }
+    .contact-icon {
+      width: 36px; height: 36px;
+      background: var(--accent-light);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .contact-icon svg { width: 16px; height: 16px; color: var(--accent); }
+    .contact-label { font-size: 11.5px; color: var(--muted); display: block; }
+    .contact-val { font-weight: 500; }
+
+    /* ── SKILLS TAGS ── */
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .skill-tag {
+      background: var(--accent-light);
+      color: var(--accent);
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .skill-group {
+      margin-bottom: 24px;
+    }
+    .skill-group h3 {
+      font-family: var(--serif);
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 24px;
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+
+    /* ── MOBILE ── */
+    @media (max-width: 680px) {
+      .site-body { flex-direction: column; gap: 32px; padding: 24px 16px 60px; }
+      .sidebar { width: 100%; position: static; display: flex; flex-direction: column; align-items: center; text-align: center; }
+      .sidebar-meta { align-items: center; }
+      .nav-name { font-size: 15px; }
+
+      .nav-toggle { display: block; }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: var(--nav-h);
+        left: 0;
+        right: 0;
+        background: rgba(248,247,245,0.98);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border);
+        padding: 8px 0;
+        gap: 0;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a {
+        padding: 10px 24px;
+        width: 100%;
+        border-radius: 0;
+        font-size: 14px;
+      }
+      .nav-links a:hover { background: var(--accent-light); }
+    }
+
+    @media (min-width: 681px) {
+      .nav-toggle { display: none !important; }
+      .nav-links { display: flex !important; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-name" onclick="showPage('about'); return false;">Aliza Ali</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
+      &#9776;
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#" onclick="showPage('about'); return false;" class="active" id="nav-about">About</a></li>
+      <li><a href="#" onclick="showPage('background'); return false;" id="nav-background">Background</a></li>
+      <li><a href="#" onclick="showPage('skills'); return false;" id="nav-skills">Skills</a></li>
+      <li><a href="#" onclick="showPage('certificates'); return false;" id="nav-certificates">Certificates</a></li>
+      <li><a href="#" onclick="showPage('cv'); return false;" id="nav-cv">CV</a></li>
+      <li><a href="#" onclick="showPage('contact'); return false;" id="nav-contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="site-body">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <img src="aliza.jpeg" alt="Aliza Ali" class="sidebar-photo" />
+    <div class="sidebar-name">Aliza Ali</div>
+    <p class="sidebar-role">ACCA Candidate · Accounts & Finance Professional</p>
+    <p class="sidebar-tag">8 of 13 papers passed (first attempt)</p>
+
+    <div class="sidebar-meta">
+      <div class="meta-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        <span>Lahore, Pakistan</span>
+      </div>
+      <div class="meta-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="mailto:aliza@email.com">aliza@email.com</a> <!-- replace -->
+      </div>
+      <div class="meta-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <a href="https://www.linkedin.com/in/alizaali" target="_blank">LinkedIn</a> <!-- replace -->
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- ABOUT -->
+    <section class="page active" id="page-about">
+      <h1 class="page-title">About</h1>
+      <p style="line-height:1.8; font-size:15px;">
+        Hi! I'm Aliza Ali, an ACCA student with <strong>8 of 13 papers passed — all on the first attempt</strong>. 
+        I'm deeply passionate about financial accuracy, regulatory compliance, and streamlining accounting workflows. 
+        Currently working as an Accounts Trainee at Accounts Automated, I manage full-cycle AP/AR, payroll, and BAS/IAS lodgement for Australian clients. 
+        I believe that precision in numbers builds trust in business.
+      </p>
+      <p style="margin-top:14px; line-height:1.8; font-size:15px;">
+        I have hands-on experience in Accounts Payable/Receivable, bank reconciliation, general ledger bookkeeping, 
+        and vouching of transactions against source documents. I'm skilled in preparing working papers and reconciliations 
+        that support monthly closing, financial reporting, and regulatory compliance across Xero, MYOB, LightYear, and Deputy.
+      </p>
+      <p style="margin-top:14px; line-height:1.8; font-size:15px; background: var(--accent-light); padding: 12px 16px; border-radius: 8px;">
+        <strong>Key achievement:</strong> Reconciles 100+ transactions monthly with <span style="color: var(--accent);">zero discrepancy carryover</span>, 
+        reflecting the accuracy, discipline, and policy compliance required for daily accounts and financial control work.
+      </p>
+    </section>
+
+    <!-- BACKGROUND -->
+    <section class="page" id="page-background">
+      <h1 class="page-title">Background</h1>
+
+      <h2 class="section-head">Education</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <span class="tl-title">ACCA (Bachelor's-equivalent)</span>
+          <span class="tl-sub">Marchanwala School of Accountancy · August 2023 – Present</span>
+          <p class="tl-body">
+            Passed 8 of 13 exams to date, all in the first attempt, with no failures.<br />
+            Scored <strong>98</strong> in FFA (Financial Accounting) and <strong>94</strong> in F4 (Business Law).<br />
+            Maintained an <strong>84.4%</strong> average across 11 ACCA papers, reflecting consistent, strong academic performance.
+          </p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-title">Matriculation (Biology)</span>
+          <span class="tl-sub">The Educators</span>
+          <p class="tl-body">Scored 954/1100 (86.7%).</p>
+        </div>
+      </div>
+
+      <h2 class="section-head">Professional Experience</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <span class="tl-title">Accounts Trainee</span>
+          <span class="tl-sub">Accounts Automated – Lahore · March 2026 – Present</span>
+          <p class="tl-body">
+            <strong>Department:</strong> Accounts & Finance<br />
+            • Manage and reconcile Accounts Payable and Accounts Receivable for an Australian client, processing 50+ invoices weekly and reconciling 100+ transactions monthly across multiple accounts.<br />
+            • Maintain the general ledger and bookkeeping records across Xero, MYOB, LightYear, and Deputy, ensuring accuracy and audit readiness.<br />
+            • Perform bank reconciliations and vouch transactions against source documents, resolving discrepancies before month-end close.<br />
+            • Process full-cycle weekly payroll, including STP reporting and superannuation contributions, maintaining full compliance with Australian payroll regulations.<br />
+            • Prepare and lodge BAS and IAS activity statements, maintaining accuracy across GST and tax obligations.<br />
+            • Prepare working papers and supplier statement reconciliations to support monthly closing, financial reporting, and compliance with company financial policies.
+          </p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-title">Accounts Intern</span>
+          <span class="tl-sub">Core Accountancy – Sialkot · September 2025 – March 2026 (6-month tenure)</span>
+          <p class="tl-body">
+            • Managed Amazon sales invoicing and payout cycles; in the final quarter, handled payouts every 14 days, each requiring reconciliation of roughly 30 sales reports for accuracy.<br />
+            • Processed end-to-end financial data entry and general ledger bookkeeping in Xero, including invoices, bills, and payments, supporting daily operations.<br />
+            • Performed bank reconciliations and vouched transaction entries in Xero against source documents, identifying and resolving discrepancies across accounts.<br />
+            • Handled intercompany transactions, ensuring accurate recording and reconciliation across related entities.<br />
+            • Prepared and analyzed sales reports to support management budgeting and decision-making.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="page" id="page-skills">
+      <h1 class="page-title">Skills</h1>
+      <p class="lead">Core competencies, software proficiency, and languages.</p>
+
+      <div class="skill-group">
+        <h3>Core Competencies</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Accounts Payable & Receivable</span>
+          <span class="skill-tag">General Ledger Bookkeeping</span>
+          <span class="skill-tag">Vouching & Transaction Verification</span>
+          <span class="skill-tag">Bank Reconciliation</span>
+          <span class="skill-tag">Internal Audit Checks</span>
+          <span class="skill-tag">Month-End Close & Working Papers</span>
+          <span class="skill-tag">BAS/IAS Preparation & Lodgement</span>
+          <span class="skill-tag">STP & Superannuation</span>
+          <span class="skill-tag">Financial Reporting & Analysis</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Software & Tools</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Xero</span>
+          <span class="skill-tag">MYOB</span>
+          <span class="skill-tag">LightYear</span>
+          <span class="skill-tag">Deputy</span>
+          <span class="skill-tag">Advanced Excel (VLOOKUP, Pivot Tables)</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">English (Intermediate)</span>
+          <span class="skill-tag">Urdu (Native)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="page" id="page-certificates">
+      <h1 class="page-title">Certificates & Achievements</h1>
+      <p class="lead">Professional certifications and academic highlights.</p>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="cert-body">
+            <div class="cert-title">ACCA Certificate of Achievement – F4 (Business Law)</div>
+            <div class="cert-issuer">ACCA</div>
+            <div class="cert-desc">Scored 94/100 – passed in first attempt.</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <div class="cert-body">
+            <div class="cert-title">ACCA Certificate of Achievement – FFA (Financial Accounting)</div>
+            <div class="cert-issuer">ACCA</div>
+            <div class="cert-desc">Scored 98/100 – passed in first attempt.</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <div class="cert-body">
+            <div class="cert-title">ACCA Certificate of Achievement – FMA (Financial Management)</div>
+            <div class="cert-issuer">ACCA</div>
+            <div class="cert-desc">Passed in first attempt.</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div class="cert-body">
+            <div class="cert-title">ACCA Foundation Diploma in Accounting</div>
+            <div class="cert-issuer">ACCA</div>
+            <div class="cert-desc">Awarded upon completion of the foundational level.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section class="page" id="page-cv">
+      <h1 class="page-title">CV</h1>
+      <p class="cv-download">
+        If the embedded PDF does not load, you can
+        <a href="Aliza_Ali_CV.pdf" download>download it here</a>.
+      </p>
+      <iframe
+        src="Aliza_Ali_CV.pdf"
+        title="Aliza Ali CV"
+        class="cv-iframe"
+      ></iframe>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="page" id="page-contact">
+      <h1 class="page-title">Contact</h1>
+      <p class="lead">Feel free to reach out for collaboration, job opportunities, or just to connect.</p>
+
+      <div class="contact-list">
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <span class="contact-label">Email</span>
+            <a href="mailto:aliza@email.com" class="contact-val">aliza@email.com</a> <!-- replace -->
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/alizaali" target="_blank" class="contact-val">Aliza Ali</a> <!-- replace -->
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          </div>
+          <div>
+            <span class="contact-label">Location</span>
+            <span class="contact-val">Lahore, Pakistan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <p>© 2026 Aliza Ali · Lahore, Pakistan</p>
+</footer>
+
+<script>
+  function toggleNav() {
+    const links = document.getElementById('navLinks');
+    links.classList.toggle('open');
+  }
+
+  function showPage(name) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+    document.getElementById('page-' + name).classList.add('active');
+    document.getElementById('nav-' + name).classList.add('active');
+    history.replaceState(null, '', '#' + name);
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    const links = document.getElementById('navLinks');
+    if (links.classList.contains('open')) {
+      links.classList.remove('open');
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash.replace('#', '');
+    const valid = ['about','background','skills','certificates','cv','contact'];
+    if (hash && valid.includes(hash)) {
+      showPage(hash);
+    }
+  });
+</script>
+
+</body>
+</html>
